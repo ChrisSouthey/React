@@ -6,7 +6,7 @@ function App() {
   return (
       <div class="todo-container">
         <div class="card">
-            <ToDo></ToDo>
+            <ToDo></ToDo>   
 
         </div>
       </div>
