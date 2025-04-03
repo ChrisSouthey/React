@@ -6,7 +6,13 @@ export const SignUpForm = () => {
     const [lastName, setLastName] = useState('');
     const [email, setEmail] = useState('');
 
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const alphanumericRegex = /^[a-zA-Z0-9]+$/;
+
+    const emailError = "";
+
     const handleEmailChange = (event) => {
+
         setEmail(event.target.value);
     };
 
@@ -33,7 +39,7 @@ export const SignUpForm = () => {
                 onChange={(event) => setLastName(event.target.value)}
             />
             <label className="form-label">Email</label>
-            <input type="email" value={email} onChange={handleEmailChange} />
+            <input type="email" value={email} required requiredError="Please enter an email." validations={{matchRegexp:emailRegex}} validationErrors={{matchRegexp:'Enter a valid email.'}} onChange={handleEmailChange} />
             <button onClick={clearForm} className="button">
                 Clear Form
             </button>
