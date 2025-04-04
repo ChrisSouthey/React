@@ -10,7 +10,7 @@ export const ShowFormButton = () => {
         {ShowForm && <SignUpForm></SignUpForm>
         
         }
-        <button onClick={() => { setShowForm(false) }} className="button">Submit</button>
+        
         </>
     );
 }
