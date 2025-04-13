@@ -8,7 +8,7 @@ function App() {
   return (
       <div class="todo-container">
         <div class="card">
-          <ShowFormButton></ShowFormButton>
+          <ToDo></ToDo>
         </div>
       </div>
   );
