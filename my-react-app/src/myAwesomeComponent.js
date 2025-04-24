@@ -9,9 +9,9 @@ export const MyAwesomeComponent = () => {
     };
 
     return (
-        <Box size="med" background="#f0f0f0">
-            <Text size="large" color="#000fff">Week 3 lab!!!! :D</Text>
-            <Button color="#bf0000" onClick={handleButtonClick}>Click here for cool stuff</Button>
+        <Box size="large" background="#f0f0f0">
+            <Text size="small" color="#ddd000">Week 3 lab!!!! :D</Text>
+            <Button color="#000fff" onClick={handleButtonClick}>Click here for cool stuff</Button>
         </Box>
     );
 };
