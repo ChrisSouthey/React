@@ -1,8 +1,12 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { ThemeContext } from "../context/ThemeCOntext";
+import { useContext } from "react";
 
 export const Products = () => {
     const [products, setProducts] = useState([]);
+    const context = useContext(ThemeContext);
+    const theme = context?.theme || themes.light;
 
     useEffect(() => {
         const getProducts = async () => {
@@ -16,7 +20,7 @@ export const Products = () => {
 
 
     return (
-        <div className="App">
+        <div style={{ color: theme.foreground }} className="App">
             {products.length > 0 ? (
                 products.map((products) => (
                     <div className='products'>
