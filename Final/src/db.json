@@ -1,0 +1,81 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "EVH Frankenstrat Replica",
+            "price": 1999.99,
+            "description": "A nearly 1-1 replica of the famous Frankenstrat guitar, made famous by Eddie Van Halen",
+            "brand": "EVH",
+            "image": "https://vanhalengear.com/wp-content/uploads/2020/12/German-Floyd-Exhibit.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Synyster Gates Special",
+            "price": 1499.99,
+            "description": "A guitar desinged by lead guitarist for Avenged Sevenfold, Synyster Gates",
+            "brand": "Schecter",
+            "image": "https://m.media-amazon.com/images/I/712QIH7BJNL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Stratocaster",
+            "price": 2099.99,
+            "description": "A classic guitar known and loved by many",
+            "brand": "Fender",
+            "image": "https://www.stars-music.com/medias/fender/strat-american-professional-ii-70th-anniversary-usa-3s-trem-rw-hd-203827.webp"
+        },
+        {
+            "id": 4,
+            "title": "Stratocaster",
+            "price": 299.99,
+            "description": "A classic guitar made accesable to all",
+            "brand": "Squire",
+            "image": "https://www.hermesmusic.com/cdn/shop/files/Fenderr-Squier-Bullet-Series-Strat-Electric-Guitar-Black-guitar-www_hermesmusic_com.jpg?v=1713987449"
+        },
+        {
+            "id": 5,
+            "title": "Warlock",
+            "price": 799.99,
+            "description": "A exotic looking guitar that produces cutting edge tones",
+            "brand": "B.C. Rich",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/L70268000002000-00-600x600.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Snakebyte",
+            "price": 1499.99,
+            "description": "A well made guitar designed and played by the rhythm guitarist and vocalist of the hit band Metallica, James Hetfield",
+            "brand": "ESP",
+            "image": "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_45/459205/14533353_800.jpg"
+        },
+        {
+            "id": 7,
+            "title": "Greeny",
+            "price": 2999.99,
+            "description": "An iconic guitar modeled after Kirk Hammets guitar",
+            "brand": "Gibson",
+            "image": "https://images.ctfassets.net/m8onsx4mm13s/5x8WZ9CFRIj148fXvDhEER/34ea9383f9d812055c097b910eb52ca8/EIGCKH59LPSGNYNH1_front.png"
+        },
+        {
+            "id": 8,
+            "title": "Acoustic Electric",
+            "price": 199.99,
+            "description": "A classic style of guitar, best used for playing songs around the campfire",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/J51473000001000-00-2000x2000.jpg"
+        },
+        {
+            "id": 9,
+            "title": "Rhoads Flying V",
+            "price": 999.99,
+            "description": "A n iconic guitar shape, modeled aftr famed guitarist, Randy Rhoads",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/L81778000001000-00-600x600.jpg"
+        },
+        {
+            "id": 10,
+            "title": "JEM Steve Vai Model",
+            "price": 549.99,
+            "description": "A beautiful guitar custom designed to fit the needs of Steve Vai",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/J20752000001000-00-2000x2000.jpg"
+        }
+    ]
+}
