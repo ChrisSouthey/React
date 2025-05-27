@@ -37,7 +37,7 @@ body {
   display: flex;
   margin-left: 20px;
   margin-bottom: 20px;
-  border:#242024 solid 1px;
+  border:#000 solid 1px;
   padding: 10px;
   border-radius: 10px;
 }
@@ -52,10 +52,12 @@ body {
   height: 400px;
 }
 
-.productText{
-  width: 500px;
-  font-size: 15px;
+.productName{
+  width: 300px;
+  font-size: 30px;
   margin-left: 20px;
+  color: black;
+  text-decoration: none;
 }
 
 .productSingle{
@@ -159,7 +161,6 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-/* Rounded sliders */
 .slider.round {
   border-radius: 34px;
 }
@@ -167,3 +168,65 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+.title{
+  font-size: 30px;
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+
+.homeImg{
+  margin-left: 20px;
+  width: 800px;
+}
+
+.checkoutBtn{
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.cartEmpty{
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+
+.cartItem{
+  border: solid 2px black;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  margin-bottom:15px;
+  margin-left: 20px;
+}
+
+.itemImage{
+  width: 200px;
+}
+
+.itemDetails{
+  display: flex;
+  align-items: center;
+}
+
+.itemTitle{
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+.itemQuantity{
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.itemPrice{
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.modalBtns{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+

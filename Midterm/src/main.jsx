@@ -6,11 +6,13 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import App from './App';
 import { Products } from './components/Products';
 import { ProductDetails } from './components/ProductDetails';
+import { ThemeProvider } from './context/ThemeCOntext.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
-      <Routes>
+      <ThemeProvider>
+        <Routes>
         <Route path="/" element={<App />}>
         <Route index element={<HomePage/>}/>
           <Route path="home-page" element={<HomePage />}/>
@@ -20,6 +22,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="*" element={<div>RAHHHHH</div>} />
         </Route>
       </Routes>
+      </ThemeProvider>
     </BrowserRouter>
   </React.StrictMode>,
 )

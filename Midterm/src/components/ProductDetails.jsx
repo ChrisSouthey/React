@@ -1,10 +1,14 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
+import { ThemeContext } from "../context/ThemeCOntext";
+import { useContext } from "react";
 
 export const ProductDetails = () => {
     const { id } = useParams();
     const navigate = useNavigate();
     const [products, setProduct] = useState(null);
+    const context = useContext(ThemeContext);
+    const theme = context?.theme || themes.light;
 
     useEffect(() => {
         const getProduct = async () => {
@@ -21,7 +25,7 @@ export const ProductDetails = () => {
     }
 
     return (
-        <div className='productSingle'>
+        <div style={{ color: theme.foreground }} className='productSingle'>
             <img className='productImgBig' src={products.image} alt={products.title} />
             <h1>{products.title}</h1>
             <h3>{products.category}</h3>
